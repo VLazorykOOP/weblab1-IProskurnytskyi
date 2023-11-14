@@ -8,13 +8,16 @@ header {
   color: #fff;
   padding: 15px;
   text-align: center;
+  border-radius: 8px;
 }
 
 nav {
-  background-color: #333;
+  margin-top: 5px;
+  background-color: #3f3e3e;
   color: #fff;
   padding: 10px;
   text-align: center;
+  border-radius: 8px;
 }
 
 nav a {
@@ -29,6 +32,7 @@ section {
   padding: 20px;
   border: 1px solid #ccc;
   background-color: #fff;
+  border-radius: 8px;
 }
 
 section h2 {
@@ -40,16 +44,20 @@ article {
   margin-bottom: 20px;
   font-weight: bold;
   padding: 10px;
+  border-radius: 8px;
 }
 
 footer {
   background-color: #333;
   color: #fff;
   padding: 20px;
-  position: fixed;
+  position: relative;
   bottom: 0;
-  width: 100%;
+  width: 97.7%;
   text-align: center;
+  margin-top: 5px;
+  border-radius: 8px;
+  opacity: 0.8;
 }
 
 footer p {
@@ -144,6 +152,7 @@ fieldset {
   margin-top: 20px;
   margin-bottom: 15px;
   font-size: large;
+  border-radius: 8px;
 }
 
 legend {
@@ -172,4 +181,9 @@ input[type=submit] {
   height: auto;
   padding: 8px;
   font-size: large;
+  border-radius: 8px;
+}
+
+video {
+  border-radius: 8px;
 }
