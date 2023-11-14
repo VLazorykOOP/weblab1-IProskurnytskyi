@@ -115,6 +115,10 @@ dd {
   float: left;
 }
 
+.space {
+  margin: 300px;
+}
+
 table {
   border-collapse: collapse;
   width: 100%;
@@ -134,4 +138,38 @@ caption {
   font-style: italic;
   text-align: center;
   padding: 5px;
+}
+
+fieldset {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-size: large;
+}
+
+legend {
+  font-weight: bold;
+}
+
+label {
+  width: 150px;
+  display: inline-block;
+  margin: 6px;
+}
+
+input {
+  width: 249px;
+  height: 25px;
+  margin: 5px;
+}
+
+select {
+  width: 254px;
+  height: 32px;
+}
+
+input[type=submit] {
+  width: 120px;
+  height: auto;
+  padding: 8px;
+  font-size: large;
 }
